@@ -111,7 +111,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                 &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(LS(A))>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
