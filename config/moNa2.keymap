@@ -83,10 +83,10 @@
 
         num_symb_2 {
             bindings = <
-&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                           &kp EQUAL          &kp INT_YEN        &trans         &trans  &trans
-&kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY               &trans  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp MINUS    &trans  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp JP_YEN     &trans  &trans
-&trans      &trans        &trans        &trans        &trans           &trans       &trans  &trans                                                       &trans
+&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                           &kp EQUAL          &kp INT_YEN        &trans         &trans         &trans
+&kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY               &trans  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans         &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp MINUS    &trans  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp JP_YEN     &kp JP_UNDERS  &trans
+&trans      &trans        &trans        &trans        &trans           &trans       &trans  &trans                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -95,7 +95,7 @@
         allow_3 {
             bindings = <
 &kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp TAB                                                     &trans  &trans  &trans  &trans  &trans
-&kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                                     &kp UNDERSCORE  &trans  &trans  &trans  &trans  &trans
+&kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                                     &kp JP_UNDERS   &trans  &trans  &trans  &trans  &trans
 &trans      &trans           &trans          &trans           &kp LS(KP_NUMBER_8)  &kp LS(KP_NUMBER_9)    &trans          &trans  &trans  &trans  &trans  &trans
 &trans      &trans           &trans          &trans           &trans               &trans                 &trans          &trans                          &trans
             >;
