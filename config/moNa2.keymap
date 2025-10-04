@@ -118,7 +118,7 @@
             bindings = <
 &trans  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                             &trans  &trans  &trans  &trans  &trans
 &trans  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &trans            &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &trans  &trans    &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &kp EXCLAMATION  &kp DQT               &kp HASH               &trans  &trans    &trans           &trans  &trans  &trans  &trans  &trans
 &trans  &trans           &trans                &trans                 &trans  &trans    &kp PRINTSCREEN  &trans                          &trans
             >;
 
