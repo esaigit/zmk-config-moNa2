@@ -74,7 +74,7 @@
 
         num_symb_2 {
             bindings = <
-&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                              &kp JP_CARET       &kp AMPERSAND     &kp TILDE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                              &kp EQUAL          &kp AMPERSAND     &kp TILDE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY               &trans     &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp DOLLAR            &kp PERCENT
 &trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp MINUS    &kp COLON  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp PIPE              &kp BACKSLASH
 &trans      &trans        &trans        &trans        &trans           &trans       &trans     &trans                                                                      &kp PIPE
