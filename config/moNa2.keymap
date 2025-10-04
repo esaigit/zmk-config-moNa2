@@ -74,10 +74,10 @@
 
         num_symb_2 {
             bindings = <
-&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                              &kp EQUAL          &kp AMPERSAND     &kp TILDE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY               &trans     &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp DOLLAR            &kp PERCENT
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp MINUS    &kp COLON  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp PIPE              &kp BACKSLASH
-&trans      &trans        &trans        &trans        &trans           &trans       &trans     &trans                                                                      &kp PIPE
+&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                           &kp EQUAL          &kp INT_YEN        &trans         &trans  &trans
+&kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY               &trans  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp MINUS    &trans  &kp RIGHT_BRACKET  &kp BACKSLASH      &trans         &trans  &trans
+&trans      &trans        &trans        &trans        &trans           &trans       &trans  &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
