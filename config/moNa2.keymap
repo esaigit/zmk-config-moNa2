@@ -119,10 +119,10 @@
 
         SCROLL {
             bindings = <
-&trans  &kp SQT              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                             &trans  &trans  &trans  &trans  &trans
-&trans  &kp DOLLAR           &kp PERCENT           &kp AMPERSAND          &trans            &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(EXCLAMATION)  &kp DQT               &kp HASH               &trans  &trans    &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &trans               &trans                &trans                 &trans  &trans    &kp PRINTSCREEN  &trans                          &trans
+&trans  &kp SQT              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                             &kp MINUS  &kp UNDER  &kp UNDERSCORE  &trans  &trans
+&trans  &kp DOLLAR           &kp PERCENT           &kp AMPERSAND          &trans            &trans           &trans     &trans     &trans          &trans  &trans
+&trans  &kp LS(EXCLAMATION)  &kp DQT               &kp HASH               &trans  &trans    &trans           &trans     &trans     &trans          &trans  &trans
+&trans  &trans               &trans                &trans                 &trans  &trans    &kp PRINTSCREEN  &trans                                        &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
