@@ -9,6 +9,7 @@
 #define JP_CARET        EQUAL             // ^
 #define JP_AMPERSAND    CARET             // &
 #define JP_YEN          0x89              // ¥
+#define JP_UNDERS       LS(0x87)          // _
 
 &mt {
     flavor = "balanced";
@@ -120,7 +121,7 @@
         SCROLL {
             bindings = <
 &trans  &kp SQT              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                             &kp MINUS  &kp UNDER  &kp UNDERSCORE  &trans  &trans
-&trans  &kp DOLLAR           &kp PERCENT           &kp AMPERSAND          &trans            &trans           &trans     &trans     &trans          &trans  &trans
+&trans  &kp DOLLAR           &kp PERCENT           &kp AMPERSAND          &trans            &kp JP_UNDERS    &trans     &trans     &trans          &trans  &trans
 &trans  &kp LS(EXCLAMATION)  &kp DQT               &kp HASH               &trans  &trans    &trans           &trans     &trans     &trans          &trans  &trans
 &trans  &trans               &trans                &trans                 &trans  &trans    &kp PRINTSCREEN  &trans                                        &trans
             >;
