@@ -26,6 +26,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        jpunderscore: jpunderscore {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "JPUNDERSCORE";
+        };
     };
 
     behaviors {
@@ -120,10 +127,10 @@
 
         SCROLL {
             bindings = <
-&trans  &kp SQT              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                             &kp MINUS  &kp UNDER  &kp UNDERSCORE  &trans  &trans
-&trans  &kp DOLLAR           &kp PERCENT           &kp AMPERSAND          &trans            &kp JP_UNDERS    &trans     &trans     &trans          &trans  &trans
-&trans  &kp LS(EXCLAMATION)  &kp DQT               &kp HASH               &trans  &trans    &trans           &trans     &trans     &trans          &trans  &trans
-&trans  &trans               &trans                &trans                 &trans  &trans    &kp PRINTSCREEN  &trans                                        &trans
+&trans  &kp SQT              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                             &kp MINUS  &kp UNDER  &kp UNDERSCORE  &kp NON_US_BACKSLASH  &trans
+&trans  &kp DOLLAR           &kp PERCENT           &kp AMPERSAND          &trans            &trans           &trans     &trans     &trans          &trans                &trans
+&trans  &kp LS(EXCLAMATION)  &kp DQT               &kp HASH               &trans  &trans    &trans           &trans     &trans     &trans          &trans                &trans
+&trans  &trans               &trans                &trans                 &trans  &trans    &kp PRINTSCREEN  &trans                                                      &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
