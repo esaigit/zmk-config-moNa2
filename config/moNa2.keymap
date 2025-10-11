@@ -59,10 +59,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R               &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F               &kp G                            &lt 2 MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C               &kp V        &lt 4 B             &lt 6 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &lt 5 SPACE  &lt 3 INT_HENKAN    &kp BACKSPACE    &lt 3 ENTER                             &kp DEL
+&kp Q           &kp W         &kp E         &kp R               &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F               &kp G                                       &lt 2 MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C               &kp V                   &lt 4 B             &lt 6 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&to 5           &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &mt LEFT_CONTROL SPACE  &lt 3 INT_HENKAN    &kp BACKSPACE    &lt 3 ENTER                             &kp DEL
             >;
 
             sensor-bindings =
@@ -83,10 +83,10 @@
 
         num_symb_2 {
             bindings = <
-&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                           &kp EQUAL          &kp INT_YEN        &trans         &trans         &trans
-&kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY               &trans  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans         &trans
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp MINUS    &trans  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp JP_YEN     &kp JP_UNDERS  &trans
-&trans      &trans        &trans        &trans        &trans           &trans       &trans  &trans                                                              &trans
+&kp N0      &kp N7        &kp N8        &kp N9        &kp KP_PLUS                               &kp EQUAL          &kp INT_YEN        &trans         &trans         &trans
+&kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY             &kp KP_MINUS  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSLASH  &trans         &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH     &kp TAB    &trans        &kp RIGHT_BRACKET  &kp BACKSLASH      &kp JP_YEN     &kp JP_UNDERS  &trans
+&trans      &trans        &trans        &trans        &trans           &trans     &trans        &trans                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -119,7 +119,7 @@
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &mkp MB3  &trans     &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                 &trans
+&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -127,10 +127,10 @@
 
         SCROLL {
             bindings = <
-&kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(KP_PLUS)   &kp LG(LS(KP_PLUS))  &trans                             &trans  &trans  &trans  &trans  &trans
-&trans              &trans               &kp LC(KP_MINUS)  &trans               &trans            &trans           &trans  &trans  &trans  &trans  &trans
-&trans              &trans               &trans            &trans               &trans  &trans    &trans           &trans  &trans  &trans  &trans  &trans
-&trans              &kp LEFT_COMMAND     &trans            &trans               &trans  &trans    &kp PRINTSCREEN  &trans                          &trans
+&kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(KP_PLUS)   &kp LG(LS(KP_PLUS))  &trans                                   &trans  &trans  &trans  &trans  &trans
+&trans              &trans               &kp LC(KP_MINUS)  &trans               &trans                  &trans           &trans  &trans  &trans  &trans  &trans
+&trans              &trans               &trans            &trans               &trans        &trans    &trans           &trans  &trans  &trans  &trans  &trans
+&trans              &kp LEFT_COMMAND     &trans            &trans               &kp LEFT_GUI  &trans    &kp PRINTSCREEN  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
