@@ -59,10 +59,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R               &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F               &kp G                                       &lt 2 MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C               &kp V                   &lt 4 B             &lt 6 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&to 5           &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &mt LEFT_CONTROL SPACE  &lt 3 INT_HENKAN    &kp BACKSPACE    &lt 3 ENTER                             &kp DEL
+&kp Q           &kp W         &kp E         &kp R               &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F               &kp G                                       &lt 2 MINUS    &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C               &kp V                   &lt 4 B             &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&to 5           &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &mt LEFT_CONTROL SPACE  &lt 3 INT_HENKAN    &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
             >;
 
             sensor-bindings =
@@ -116,21 +116,21 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &mkp MB3  &trans     &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&to 0   &trans  &trans  &trans  &trans  &trans    &trans  &trans                                 &trans
+&trans  &trans              &kp LC(LS(KP_PLUS))   &kp LG(LS(KP_PLUS))  &trans                    &trans  &trans    &mkp MB3  &trans     &kp PRINTSCREEN
+&trans  &kp LA(LEFT_ARROW)  &kp LC(LS(KP_MINUS))  &kp LA(RIGHT_ARROW)  &trans            &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans
+&trans  &kp LS(LC(TAB))     &trans                &kp LC(TAB)          &trans  &trans    &trans  &to 6   &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&to 0   &trans              &trans                &trans               &trans  &trans    &trans  &trans                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
         };
 
-        SCROLL {
+        mac {
             bindings = <
-&kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(KP_PLUS)   &kp LG(LS(KP_PLUS))  &trans                                   &trans  &trans  &trans  &trans  &trans
-&trans              &trans               &kp LC(KP_MINUS)  &trans               &trans                  &trans           &trans  &trans  &trans  &trans  &trans
-&trans              &trans               &trans            &trans               &trans        &trans    &trans           &trans  &trans  &trans  &trans  &trans
-&trans              &kp LEFT_COMMAND     &trans            &trans               &kp LEFT_GUI  &trans    &kp PRINTSCREEN  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 5   &trans  &trans  &trans  &kp LEFT_GUI  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
