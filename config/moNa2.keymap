@@ -65,9 +65,7 @@
 &to 5           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_CONTROL INT_MUHENKAN  &lt 4 SPACE  &lt 1 INT_HENKAN    &kp BACKSPACE    &lt 3 ENTER                             &kp DEL
             >;
 
-            sensor-bindings =
-                <&scroll_up_down>,
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         function_1 {
