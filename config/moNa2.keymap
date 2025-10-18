@@ -92,10 +92,10 @@
 
         allow_3 {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp TAB                                  &trans  &trans  &trans  &trans  &trans
-&kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                   &kp JP_UNDERS  &trans  &trans  &trans  &trans  &trans
-&trans      &trans           &trans          &trans           &kp LS(N8)  &kp LS(N9)    &trans         &trans  &trans  &trans  &trans  &trans
-&trans      &trans           &trans          &trans           &trans      &trans        &trans         &trans                          &trans
+&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp TAB                                  &kp PAGE_UP    &kp LC(PAGE_UP)    &trans  &trans  &trans
+&kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                   &kp JP_UNDERS  &kp PAGE_DOWN  &kp LC(PAGE_DOWN)  &trans  &trans  &trans
+&trans      &trans           &trans          &trans           &kp LS(N8)  &kp LS(N9)    &trans         &trans         &trans             &trans  &trans  &trans
+&trans      &trans           &trans          &trans           &trans      &trans        &trans         &trans                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
