@@ -125,10 +125,10 @@
 
         mac {
             bindings = <
-&trans  &trans  &trans  &trans                         &trans                              &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                         &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                         &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&to 5   &trans  &trans  &mt LEFT_COMMAND INT_MUHENKAN  &trans  &lt 1 INT_HENKAN    &trans  &trans                          &trans
+&trans  &trans  &trans  &trans                              &trans                                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                              &trans                              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                              &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&to 5   &trans  &trans  &mt LEFT_COMMAND LC(LS(SEMICOLON))  &trans  &lt 1 LS(LC(INT_HENKAN))    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
