@@ -62,7 +62,7 @@
 &kp Q           &kp W         &kp E         &kp R                          &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A           &kp S         &kp D         &kp F                          &kp G                            &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C                          &kp V        &lt 4 B             &lt 2 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&to 5           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_CONTROL INT_MUHENKAN  &lt 4 SPACE  &lt 1 INT_HENKAN    &kp BACKSPACE    &lt 3 ENTER                             &kp DEL
+&to 5           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_CONTROL INT_MUHENKAN  &lt 5 SPACE  &lt 1 INT_HENKAN    &kp BACKSPACE    &lt 3 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -114,10 +114,10 @@
 
         MOUSE {
             bindings = <
-&trans           &trans              &kp LC(KP_PLUS)   &kp LG(LS(KP_PLUS))  &trans                         &trans  &trans    &mkp MB3  &trans     &kp PRINTSCREEN
-&kp LS(LC(TAB))  &kp LA(LEFT_ARROW)  &kp LC(KP_MINUS)  &kp LA(RIGHT_ARROW)  &kp LC(TAB)            &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans
-&trans           &trans              &trans            &trans               &trans       &trans    &trans  &to 6   &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&to 0            &trans              &trans            &trans               &trans       &trans    &trans  &trans                                 &trans
+&trans           &trans              &kp LC(KP_PLUS)   &kp LG(LS(KP_PLUS))  &trans                                     &trans         &trans    &mkp MB3  &trans     &kp PRINTSCREEN
+&kp LS(LC(TAB))  &kp LA(LEFT_ARROW)  &kp LC(KP_MINUS)  &kp LA(RIGHT_ARROW)  &kp LC(TAB)            &kp LG(UP)          &kp LG(DOWN)   &mkp MB1  &kp UP    &mkp MB2   &trans
+&trans           &trans              &trans            &trans               &trans       &trans    &kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&to 0            &trans              &trans            &trans               &trans       &trans    &trans              &to 6                                         &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
